@@ -110,14 +110,15 @@ body {
     border: none;
     color: #888;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     margin: 0;
     opacity: 0;
+    outline: none;
     padding: 0;
     position: absolute;
     right: 15px;
-    top: 6px;
+    top: 7px;
     -webkit-user-select: none;
     user-select: none;
     width: 20px;

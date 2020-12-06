@@ -76,7 +76,7 @@ class NavigationLink {
 
     draw() {
         this.toggleFavoriteIcon();
-        if(this.active && this.groupId != "recents") {
+        if(this.active && this.groupId != "recents" && this.groupId != "favorites") {
             this.node.addClass("active");
         }
     }
