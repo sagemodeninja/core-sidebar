@@ -20,16 +20,6 @@ body {
     width: 220px;
 }
 
-/* #layout_sidebar::after {
-    background: linear-gradient(to top, rgba(251, 251, 251, 1) 0%, rgba(251, 251, 251, 0) 100%);
-    content: "";
-    height: 30px;
-    left: 0;
-    position: absolute;
-    bottom: 50px;
-    width: 100%;
-} */
-
 #sidebar_navigation {
     height: calc(100% - 150px);
     left: 0;
@@ -55,7 +45,12 @@ body {
 }
 
 .navigation-group {
+    display: none;
     margin-bottom: 15px;
+}
+
+.navigation-group.active {
+    display: block;
 }
 
 .navigation-group-title {
